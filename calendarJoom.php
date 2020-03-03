@@ -1,4 +1,10 @@
 {source}
+
+<!-- 
+	CODIGO DENTRO DE SINTAXIS PARA IMPLEMENTACIÓN EN GESTOR DE CONTENIDO JOOMLA
+	USO DE PHP MEDIANTE EL PLUGIN SOURCERER V7.4.2
+ -->
+
 <?php
 //LINEA DE SEGURIDAD
 defined('_JEXEC') or die;
@@ -30,3 +36,4 @@ $ruta_cz=JURI::base();
     </body>
     
 </html>
+{/source}
