@@ -1,0 +1,185 @@
+#calendarDiv
+{
+	position:absolute;
+	width:205px;
+	border:1px solid #5a4215;
+	padding:1px;
+	background-color: #FFF;
+	font-family:arial;
+	font-size:10px;
+	padding-bottom:20px;
+    padding-right: 10px;
+	visibility:hidden;
+}
+
+#calendarDiv span,#calendarDiv img
+{
+	float:left;
+}
+
+#calendarDiv .selectBox,#calendarDiv .selectBoxOver
+{
+	
+	line-height:12px;
+	padding:1px;
+	cursor:pointer;
+	padding-left:2px;
+}
+
+#calendarDiv .selectBoxTime,#calendarDiv .selectBoxTimeOver
+{	
+	line-height:12px;
+	padding:1px;
+	cursor:pointer;
+	padding-left:2px;
+}
+
+#calendarDiv td
+{
+	padding:3px;
+	margin:0px;
+	font-size:10px;
+}
+
+
+
+#calendarDiv .selectBox
+{
+	border:1px solid #81806c;		
+	color: #E2EBED;
+	position:relative;
+}
+
+#calendarDiv .selectBoxOver
+{
+	border:1px solid #FFF;
+	background-color: #5a4215;
+	color: #FFF;
+	position:relative;
+}
+
+#calendarDiv .selectBoxTime
+{
+	border:1px solid #5a4215;		
+	color: #5a4215;
+	position:relative;
+}
+
+#calendarDiv .selectBoxTimeOver
+{
+	border:1px solid #5a4215;	
+	color: #5a4215;
+	position:relative;
+}
+
+#calendarDiv .topBar
+{
+    width: 207px;
+	height:16px;
+	padding:4px;
+	background-color: #5a4215;
+}
+
+#calendarDiv .activeDay
+{	/* Active day in the calendar */
+	color:#ad0bcb;
+}
+
+#calendarDiv .todaysDate
+{
+	height:17px;
+	line-height:17px;
+	padding:2px;
+	background-color: rgba(90, 66, 21, 0.71);
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	width:201px;
+}
+
+/*NUMERO DE SEMANA*/
+#calendarDiv .calendar_week_column
+{
+    background-color: rgba(90, 66, 21, 0.71);
+    color: #ffffff;
+}
+
+#calendarDiv .todaysDate div
+{
+	float:left;
+}
+	
+#calendarDiv .timeBar
+{
+	height:17px;
+	line-height:17px;
+	background-color: rgba(90, 66, 21, 0.71);
+	width:72px;
+	color:#FFF;
+	position:absolute;
+	right:0px;
+}
+
+#calendarDiv .timeBar div
+{
+	float:left;
+	margin-right:1px;
+}
+
+
+#calendarDiv .monthYearPicker
+{
+	background-color: rgb(57, 50, 35);
+	border:1px solid #ffffff;
+	position:absolute;
+	color: #d3ccbe;
+	left:0px;
+	top:15px;
+	z-index:1000;
+	display:none;
+
+}
+
+#calendarDiv #monthSelect
+{
+	width:70px;  
+}
+
+#calendarDiv .monthYearPicker div
+{    
+	float:none;
+	clear:both;	
+	padding:1px;
+	margin:1px;	
+	cursor:pointer;
+}
+
+#calendarDiv .monthYearActive
+{
+	background-color:rgba(90, 66, 21, 0.71);
+	color: rgb(255, 255, 255);
+}
+
+#calendarDiv td
+{
+	text-align:right;
+	cursor:pointer;
+    color: #000000;
+}
+
+#calendarDiv .topBar img
+{
+	cursor:pointer;
+}
+
+#calendarDiv .topBar div
+{
+	float:left;
+	margin-right:1px;
+}
+
+#todaysDateString
+{
+    color: #ffffff;
+}
+
